@@ -1,0 +1,53 @@
+/* src/App.css */
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.section {
+  scroll-behavior: smooth;
+}
+
